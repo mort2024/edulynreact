@@ -18,15 +18,15 @@ class Header extends Component {
                             <Col lg="6" md="5">
                                 <div className="bar-left">
                                     <ul className="list-unstyled list-inline">
-                                        <li className="list-inline-item"><i className="las la-map-marker"></i>795 South Park Avenue, CA 94107.</li>
-                                        <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/faq"}>Have Questions</Link></li>
+                                        <li className="list-inline-item"><i className="las la-map-marker"></i>170 TAUBE AVE, SASKATOON SK S7V 1L6.</li>
+                                        {/* <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/faq"}>Have Questions</Link></li> */}
                                     </ul>
                                 </div>
                             </Col>
                             <Col lg="6" md="7">
                                 <div className="bar-right d-flex justify-content-end">
                                     <ul className="list-unstyled list-inline bar-social">
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
+                                        <li className="list-inline-item"><a href = {process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
                                         <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
                                         <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
                                         <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-instagram"></i></a></li>
@@ -61,7 +61,7 @@ class Header extends Component {
                         <Row>
                             <Col md="3">
                                 <div className="logo">
-                                    <Link to={process.env.PUBLIC_URL + "/"}><img src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt="" /></Link>
+                                    <Link to={process.env.PUBLIC_URL + "/"}><img src={process.env.PUBLIC_URL + "/assets/images/logo2.png"} alt="" /></Link>
                                 </div>
                             </Col>
                             <Col md="9">
@@ -72,7 +72,7 @@ class Header extends Component {
                                         </div>
                                         <div className="box-content">
                                             <p>Call Us Now</p>
-                                            <span>(908) 875 7678</span>
+                                            <span>(306) 261 1136</span>
                                         </div>
                                     </div>
                                     <div className="emcontact-box d-flex">
@@ -81,7 +81,7 @@ class Header extends Component {
                                         </div>
                                         <div className="box-content">
                                             <p>Enquery Us</p>
-                                            <span>enquery@edulyn.com</span>
+                                            <span>smartmortgagebroker@gmail.com</span>
                                         </div>
                                     </div>
                                     <div className="apply-btn">

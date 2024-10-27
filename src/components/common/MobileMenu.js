@@ -77,7 +77,7 @@ function MobileMenu() {
                                         </a>
                                     </div>
                                     <div className="mb-logo">
-                                        <Link to={process.env.PUBLIC_URL + "/"}><img src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"} alt="" /></Link>
+                                        <Link to={process.env.PUBLIC_URL + "/"}><img src={process.env.PUBLIC_URL + "/assets/images/logo2.png"} alt="" /></Link>
                                     </div>
                                 </div>
                                 <div className="mb-search-box">
