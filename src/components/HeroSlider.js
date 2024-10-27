@@ -55,7 +55,7 @@ class HeroSlider extends Component {
                         paddingRight: '10px'
                     }}>
                         <div>
-                            <img src={process.env.PUBLIC_URL + `/assets/images/img-1.jpg`} className="slider-image" alt={'img-1.jpg'} style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
+                            <img src={process.env.PUBLIC_URL + `/assets/images/bnr-1.png`} className="slider-image" alt={'bnr-1.png'} style={{ width: '100%', height: 'auto', objectFit: 'cover' }} />
                         </div>
                     </SwiperSlide>
 

@@ -84,9 +84,9 @@ class Header extends Component {
                                             <span>smartmortgagebroker@gmail.com</span>
                                         </div>
                                     </div>
-                                    <div className="apply-btn">
+                                    {/* <div className="apply-btn">
                                         <Link to={process.env.PUBLIC_URL + "/registration"}><i className="las la-clipboard-list"></i>Apply Now</Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </Col>
                         </Row>
