@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './helper/ScrollToTop';
 import { GlobalStyle } from "./components/common/styles/global.js";
 import HomeOne from './HomeOne';
-import HomeTwo from './HomeTwo';
+//import HomeTwo from './HomeTwo';
 import About from './pages/about/About';
 import CourseGrid from './pages/courses/CourseGrid';
 import CourseList from './pages/courses/CourseList';
@@ -33,7 +33,7 @@ function App() {
             <ScrollToTop />
             <Switch>
                 <Route exact path={`${process.env.PUBLIC_URL + "/"}`} component={HomeOne} />
-                <Route path={`${process.env.PUBLIC_URL + "/home-two"}`} component={HomeTwo} />
+                {/* <Route path={`${process.env.PUBLIC_URL + "/home-two"}`} component={HomeTwo} /> */}
                 <Route path={`${process.env.PUBLIC_URL + "/about"}`} component={About} />
                 <Route path={`${process.env.PUBLIC_URL + "/course-grid"}`} component={CourseGrid} />
                 <Route path={`${process.env.PUBLIC_URL + "/course-list"}`} component={CourseList} />
