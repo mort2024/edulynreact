@@ -27,11 +27,11 @@ class Header extends Component {
                                 <div className="bar-right d-flex justify-content-end">
                                     <ul className="list-unstyled list-inline bar-social">
                                         <li className="list-inline-item"><a href = {process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-instagram"></i></a></li>
+                                        {/* <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li> */}
+                                        {/* <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li> */}
+                                        {/* <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-instagram"></i></a></li> */}
                                     </ul>
-                                    <ul className="list-unstyled list-inline bar-lang">
+                                    {/* <ul className="list-unstyled list-inline bar-lang">
                                         <li className="list-inline-item">
                                             <Dropdown>
                                                 <Dropdown.Toggle as="a"><img src={process.env.PUBLIC_URL + "/assets/images/us.png"} alt="" />English<i className="las la-angle-down"></i></Dropdown.Toggle>
@@ -44,11 +44,11 @@ class Header extends Component {
                                                 </Dropdown.Menu>
                                             </Dropdown>
                                         </li>
-                                    </ul>
-                                    <ul className="list-unstyled list-inline bar-login">
+                                    </ul> */}
+                                    {/* <ul className="list-unstyled list-inline bar-login">
                                         <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/login"}><i className="las la-user"></i>Log In</Link></li>
                                         <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/registration"}><i className="las la-user-edit"></i>Register</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </Col>
                         </Row>
